@@ -1,0 +1,69 @@
+/* Start Header */
+header {
+    padding: 5px 0;
+    .site-logo {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        h4 {
+            font-family: "Russo One", sans-serif;
+            color: $logotextcolor;
+            margin-left: 2rem;
+            font-size: 2rem;
+            span {
+                display: inline-block;
+            }
+            span::first-letter {
+                color: $logotextfirstlettercolor;
+            }
+        }
+    }
+    .header-list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        ul {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            li {
+                display: flex;
+                align-items: center;
+                margin-left: 1rem;
+                .header-icon {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 10px;
+                    i {
+                        font-size: 1.2rem;
+                    }
+                }
+                .phone-color {
+                    background-color: rgba(255, 91, 92, 0.17);
+                    color: #ff5b5c;
+                }
+                .whatsapp-color {
+                    background-color: rgba(151, 163, 157, 0.17);
+                    color: #188f54;
+                }
+                .web-color {
+                    background-color: rgba(0, 207, 221, 0.17);
+                    color: #00cfdd;
+                }
+                div{
+                    span{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* End Header */
