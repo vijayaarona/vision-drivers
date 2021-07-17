@@ -191,8 +191,8 @@
 }
 
     .mobile-nav-toggle i {
-        margin: 18px 18px 0 0;
-        color: #004289;
+        margin: 12px 18px 0 0;
+        color: #fff;
     }
 
 .mobile-nav-overly {
@@ -250,3 +250,9 @@
     background: $color-menuhover;
 }
 /* End Menu  Styles */
+/* Start Responsive */
+@media (min-width:320px) and (max-width:575px){
+    .menu-bg{
+        display: none;
+    }
+}

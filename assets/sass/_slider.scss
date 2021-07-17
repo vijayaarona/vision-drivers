@@ -55,7 +55,7 @@
   
   @media (max-width: 768px) {
     #intro h2 {
-      font-size: 28px;
+      font-size: 18px;
     }
   }
   
@@ -138,3 +138,15 @@
     background: #fff;
     color: #18d26e;
   }
+
+  /* Start Responsive */
+  #intro
+  {
+   h2{
+    margin-bottom: 10px;
+  }
+  p{
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
