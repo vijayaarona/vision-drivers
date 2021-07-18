@@ -50,11 +50,16 @@ header {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        margin-top: 5px;
+        img{
+            max-height: 70px;
+        }
         h4 {
             font-family: "Russo One", sans-serif;
             color: $logotextcolor;
-            margin-left: 2rem;
+            margin-left: 1rem;
             font-size: 2rem;
+            margin-bottom: 0;
             span {
                 display: inline-block;
             }
