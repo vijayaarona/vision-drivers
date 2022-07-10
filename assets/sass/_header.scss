@@ -128,7 +128,7 @@ header {
             ul{
                 margin-top: 0.5rem;
                 li{
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     a{
                         width: 24px;
                         height: 24px
@@ -246,4 +246,14 @@ header {
 /* End Responsive */
 a:hover{
     text-decoration: none;
+}
+.btn-quickbook{
+    background-color: #f2d800;
+    color: #001949;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    &:hover{
+        background-color: #188f54;
+        color: #fff;
+    }
 }

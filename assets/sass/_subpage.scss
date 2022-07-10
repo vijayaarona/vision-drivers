@@ -59,4 +59,46 @@
         }
     }
 }
+
+//BEGIN: Contact Us
+.contact-social-list {
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    align-items: center;
+    li:not(:last-child) {
+        font-size: 1.2rem;
+        color: #1650be;
+        font-weight: bold;
+    }
+    li {
+        a {
+            display: flex;
+            width: 32px;
+            height: 32px;
+            border-radius: 100vmax;
+            justify-content: center;
+            align-items: center;
+            background-color: #0b2d6d;
+            color: #fff;
+            transition: all 0.2s ease-in-out;
+            transform: translateY(0);
+            &:hover {
+                transform: translateY(-.15rem);
+            }
+        }
+    }
+}
+//END: Contact Us
+//BEGIN: Terms and Condition
+.termcondition-list{
+    li{
+        margin-bottom: 0.5rem;
+        letter-spacing: 0.5px;
+    }
+}
+//END: Terms and Condition
 /* ========================= End Sub page styles ============================== */
